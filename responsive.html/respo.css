@@ -35,13 +35,13 @@
   }
 }
 
-@media screen and (min-width: 557px) and (max-width:768px) {
+@media screen and (min-width: 557px) and (max-width:768) {
     .photo {
-      background-color: rgb(108, 199, 90);
+      background-color: brown;
       border-radius:25px;
     }
     .container {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(, 1fr);
       justify-items: center;
      
     }

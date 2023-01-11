@@ -1,0 +1,40 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 20px solid rgb(127, 148, 33);
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 30px;
+   background-color: blue;
+   color: aliceblue;
+
+}
+
+.container{
+    border: 20px solid red;
+display: flex;
+justify-content:space-around;
+align-items: center;
+flex-wrap: wrap;
+height: 500px;
+}
+
+.calander{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.date{
+    background-color: rgb(192, 208, 238);
+    border: 2px solid black;
+    height: 65px;
+    padding-top: 30px;
+     flex-direction: ;
+}
